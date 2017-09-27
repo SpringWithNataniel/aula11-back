@@ -1,20 +1,13 @@
-# Aula 8
+# Aula 11
 
-* Um pouco mais sobre autenticação
-* Configuração de Cors
-* Introdução ao Ionic 
-* NodeJS
-* Cordova
+* Utilizar Cookies
+* Guardar o access token
+* Mudar de tela após o login
 
 
 
 
 
 
-Links úteis
----
 
-* http://software.dzhuvinov.com/cors-filter-spec.html
-* https://nodejs.org/en/
-* https://ionicframework.com/
 
