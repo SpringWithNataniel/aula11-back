@@ -45,7 +45,13 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-acl</artifactId>
         </dependency>
+        
+        <!-- Mongo em memória -->
 
+        <dependency>
+            <groupId>de.flapdoodle.embed</groupId>
+            <artifactId>de.flapdoodle.embed.mongo</artifactId>
+        </dependency>    
     </dependencies>
 
     <build>
