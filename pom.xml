@@ -41,13 +41,6 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-acl</artifactId>
         </dependency>
-        
-        <!-- Mongo em memória -->
-
-        <dependency>
-            <groupId>de.flapdoodle.embed</groupId>
-            <artifactId>de.flapdoodle.embed.mongo</artifactId>
-        </dependency>    
     </dependencies>
     
 
@@ -56,18 +49,13 @@
     </properties>
 
 
-     <build>  
-        <finalName>Aula11</finalName>   
+    <build>
         <plugins>
             <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-        </plugins>    
+        </plugins>
     </build>
-
 
 </project>
